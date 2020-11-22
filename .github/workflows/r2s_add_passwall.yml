@@ -104,7 +104,7 @@ jobs:
           cd friendlywrt
           echo -e '\nchown -R root:root /usr/share/netdata/web' >> package/base-files/files/root/setup.sh
           sed -i '/8.8.8.8/d' package/base-files/files/root/setup.sh
-          echo -e '\nDYC Build\n'  >> package/base-files/files/etc/banner
+          echo -e '\nWZB Build\n'  >> package/base-files/files/etc/banner
           
       - name: Clean Feeds
         run: |
