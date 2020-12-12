@@ -21,15 +21,15 @@ rm -rf trojan/ && svn co https://github.com/coolsnowwolf/lede/trunk/package/lean
 
 git clone https://github.com/jerrykuku/lua-maxminddb.git
 git clone https://github.com/jerrykuku/luci-app-vssr.git
-cd luci-app-vssr/root/etc/
-echo 'china_ssr.txt
-config/black.list
-config/white.list
-dnsmasq.oversea/oversea_list.conf
-dnsmasq.ssr/ad.conf
-dnsmasq.ssr/gfw_base.conf
-dnsmasq.ssr/gfw_list.conf' | xargs rm
-cd ../../../
+#cd luci-app-vssr/root/etc/
+#echo 'china_ssr.txt
+#config/black.list
+#config/white.list
+#dnsmasq.oversea/oversea_list.conf
+#dnsmasq.ssr/ad.conf
+#dnsmasq.ssr/gfw_base.conf
+#dnsmasq.ssr/gfw_list.conf' | xargs rm
+#cd ../../../
 
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git  
 git clone https://github.com/tty228/luci-app-serverchan.git
